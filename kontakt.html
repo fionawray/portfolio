@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontakt</title>
+</head>
+
+<body>
+
+    <section id="side_menu">
+        <header>
+            <nav>
+                <div id="menu_billede">
+                    <a href="index.html">
+                        <img src="images/logo.svg" alt="menu_profil"></a>
+                </div>
+                <div id="menuknap">☰</div>
+                <ul id="menu" class="hidden">
+                    <li><a href="index.html">FORSIDE</a></li>
+                    <li><a href="portfolio1.html">PORTFOLIO</a></li>
+                    <li><a href="ommig.html">OM MIG</a></li>
+                    <li><a href="CV.html">CV</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <hr>
+    </section>
+    <section id="contact">
+        <div class="col_kontakt">
+
+            <div class="txt_kontakt">
+                <h2>Kontakt</h2>
+                <p>Kontakt mig via formularen <br>
+                    eller skriv en e-mail direkte til mig på <br>
+                    fiona.maria.wray@hotmail.com</p>
+                <h2>København</h2>
+                <p>
+                    Fiona Maria Wray <br>
+                    2400, København NV <br>
+                    Danmark <br>
+
+                    +45 61 66 89 03</p>
+            </div>
+            <div class="container_kontakt">
+                <form action="action_page.php">
+
+                    <input type="text" id="name" name="firstname" placeholder="Name">
+
+                    <input type="text" id="email" name="email" placeholder="Email">
+
+                    <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bottom_footer">
+
+        <div class="image_footer">
+            <div id="image_facebook">
+                <a href="https://www.facebook.com/fiona.wray.16"> <img border="0" src="images/face.svg" width="65" height="65" alt="instagram"> </a>
+            </div>
+            <div id="image_insta">
+                <a href="https://www.instagram.com/fionawray/"> <img border="0" src="images/insta.svg" width="65" height="65" alt="instagram"> </a>
+            </div>
+            <div id="image_mail">
+                <a href="kontakt.html"> <img border="0" src="images/mail.svg" width="65" height="65" alt="mail"> </a>
+            </div>
+            <div class="txt_footer">
+                <p>©Copyright 2019 - All Rights Reserved ❘ Designed by Fiona Wray</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body></html>
