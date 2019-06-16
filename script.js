@@ -28,8 +28,6 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-
-
 function typingEffect() {
     let word = words[i].split("");
     let loopTyping = function () {
