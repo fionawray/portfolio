@@ -8,7 +8,6 @@ function sidenVises() {
     console.log("sidenVises");
 
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
-    document.querySelector("#mere").addEventListener("click", readMore);
 }
 
 function toggleMenu() {
@@ -29,11 +28,7 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-function readMore() {
-    console.log("readMore");
-    document.querySelector("#box").classList.toggle("stor");
-    document.querySelector("#box").classList.toggle("lille");
-}
+
 
 function typingEffect() {
     let word = words[i].split("");
