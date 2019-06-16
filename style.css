@@ -17,7 +17,6 @@ hr {
 }
 
 
-
 h1 {
     font-family: 'abel', sans-serif;
     font-size: 35px;
@@ -28,6 +27,7 @@ h1 {
 
 p {
     line-height: 2;
+    font-size: 18px;
 }
 
 h2 {
@@ -373,7 +373,7 @@ a:hover {
 }
 
 
-#portfoliobox {
+/*#portfoliobox {
     margin-right: 20px;
     background-image: url(images/portf.png);
     background-size: cover;
@@ -384,9 +384,65 @@ a:hover {
     height: 50%;
     background-position: 25% 25%;
 }
-
+*/
 .portfolio_image {
     border-radius: 60px;
+
+}
+
+#overskrift {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#pic_overskrift {
+    background-image: url(images/overskrift.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 110px;
+    width: 300px;
+    align-content: center;
+}
+
+
+#ikonbilled {
+    background-image: url(images/ikoner.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-right: 140px;
+}
+
+#monster {
+    position: relative;
+    display: flex;
+    margin-left: 200px;
+}
+
+#pic_monster {
+    background-image: url(images/monster.svg);
+    background-size: 100%;
+    height: 200px;
+    width: 390px;
+    margin-bottom: 5px;
+    justify-content: flex-end;
+}
+
+#brd_tekst {
+    flex-basis: 200px;
+    padding: 1vw;
+    padding-top: 0vw;
+    text-align: left;
+    line-height: 26px;
+    margin-left: 28vw;
+    margin-right: 28vw;
+    text-align: center;
 }
 
 //******************* prøve portfolio index.html*//
