@@ -60,9 +60,9 @@ h4 a {
     text-transform: none;
     background-image: url(images/streg.svg);
     background-size: 100%;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    padding: 1rem;
+    padding: 2.3rem;
 }
 
 #menu_billede {
@@ -127,22 +127,6 @@ a:hover {
     transform-origin: top left;
 }
 
-@media only screen and (min-width: 600px) {
-
-    #menuknap {
-        display: none;
-    }
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-
-    #menu li {
-        display: inline-block;
-    }
-}
 
 
 /* visited link */
@@ -220,6 +204,7 @@ a:hover {
     height: 364px;
     width: 340px;
     border-radius: 1%;
+    margin-top: 1vw;
 }
 
 #skills {
@@ -928,7 +913,7 @@ form {
 input[type=text],
 select,
 textarea {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'abel', sans-serif;
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -1002,6 +987,24 @@ input[type=submit] {
     padding: 0.1em;
 }
 
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
+
 @media only screen and (max-width: 500px) {
     #overskrift #ikonbilled {
         display: none;
@@ -1012,9 +1015,14 @@ input[type=submit] {
     }
 }
 
-@media only screen and (min-width: 680px) {
-    #splash {
-        background-position: 20% 0%;
+@media only screen and (max-width: 700px) {
+    #zarkovideo {
+        width: 440px;
+        height: 250px;
+        text-align: center;
     }
 
+    #video_container {
+        margin: 0;
+    }
 }
