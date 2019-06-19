@@ -468,14 +468,6 @@ a:hover {
 
 }
 
-/*#col1_web {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 2;
-    flex-basis: 500px;
-    margin-left: 6vw;
-}*/
-
 #col2_web {
     flex-grow: 1;
     flex-basis: 200px;
@@ -496,8 +488,6 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
 }
-
-
 
 //*************animation *//////
 
@@ -967,7 +957,6 @@ input[type=submit] {
 }
 
 @media only screen and (min-width: 600px) {
-
     #menuknap {
         display: none;
     }
@@ -976,7 +965,6 @@ input[type=submit] {
         transform: translateX(0);
         opacity: 1;
     }
-
 
     #menu li {
         display: inline-block;
