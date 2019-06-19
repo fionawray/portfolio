@@ -1,8 +1,8 @@
+window.addEventListener("load", sidenVises);
+
 const words = ["Multimediedesigner.", "KEA.", "HTML."];
 let i = 0;
 let timer;
-
-window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("sidenVises");
