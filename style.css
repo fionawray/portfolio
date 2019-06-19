@@ -69,8 +69,6 @@ h4 a {
     margin: 0;
 }
 
-/* skal ændre menu_billede til position: reletive, for at menuen står under hinanden i burger*/
-
 #menu_billede:hover {
     transform: scale(0.9);
 }
@@ -126,7 +124,6 @@ a:hover {
 }
 
 
-
 /* visited link */
 #side_menu header nav a:visited {
     color: #000000;
@@ -164,7 +161,6 @@ a:hover {
 }
 
 /*menu færdig*/
-
 
 
 /* OM MIG */
@@ -349,19 +345,6 @@ a:hover {
     margin: 1rem;
 }
 
-
-/*#portfoliobox {
-    margin-right: 20px;
-    background-image: url(images/portf.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    display: block;
-    width: 100%;
-    height: 50%;
-    background-position: 25% 25%;
-}
-*/
 .portfolio_image {
     border-radius: 60px;
 }
@@ -392,13 +375,11 @@ a:hover {
     margin-left: 85px;
 }
 
-
 #ikonbilled {
     background-image: url(images/ikoner.svg);
     background-size: 70%;
     background-repeat: no-repeat;
 }
-
 
 #pic_monster {
     background-image: url(images/monster.svg);
